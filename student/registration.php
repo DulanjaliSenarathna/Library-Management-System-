@@ -1,3 +1,6 @@
+<?php 
+include "connection.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,7 +70,14 @@
 
                 if(isset ($_POST["submit1"]))
                 {
-                    echo "hello";
+                    
+                    mysqli_query($link,"insert into student_registration values('','$_POST[firstname]','$_POST[lastname]','$_POST[username]','$_POST[password]','$_POST[email]','$_POST[contact]','$_POST[sem]','$_POST[enrollmentno]')");
+
+                    ?>
+                    <div class="alert alert-success col-lg-12 col-lg-push-0">
+        Registration successfully, You will get email when your account is approved
+    </div>
+    <?php
                 }
 
              ?>
@@ -76,9 +86,7 @@
 
     </div>
 
-    <div class="alert alert-success col-lg-6 col-lg-push-3">
-        Registration successfully, You will get email when your account is approved
-    </div>
+    
 
 
 </body>
