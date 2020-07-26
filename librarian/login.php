@@ -85,7 +85,7 @@ if(isset($_POST["submit1"]))
     {
         ?>
 <script type="text/javascript">
-window.location="location.php";
+window.location="display_student_info.php";
 </script>
 <?php
     }

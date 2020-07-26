@@ -69,7 +69,7 @@ include "connection.php";
 if(isset($_POST["submit1"]))
 {
     $count = 0;
-    $res= mysqli_query($link,"select * from student_registration where username='$_POST[username]' && password='$_POST[password]'");
+    $res= mysqli_query($link,"select * from student_registration where username='$_POST[username]' && password='$_POST[password]' && status='yes'");
     $count = mysqli_num_rows($res);
     
 
