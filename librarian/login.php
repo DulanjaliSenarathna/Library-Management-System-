@@ -1,4 +1,5 @@
 <?php
+session_start();
 include "connection.php";
 ?>
 <!DOCTYPE html>
@@ -83,6 +84,7 @@ if(isset($_POST["submit1"]))
     }
     else
     {
+        $_SESSION["librarian"] = $_POST["username"];
         ?>
 <script type="text/javascript">
 window.location="display_student_info.php";
