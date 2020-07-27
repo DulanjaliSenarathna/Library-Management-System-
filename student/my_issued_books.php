@@ -45,8 +45,7 @@ include "connection.php";
                                     Books Issue Date
                                     </th>
                                     <?php
-                                    
-                                    $res=mysqli_query($link,"select * from issue_books where student_username='{$_SESSION[username]}'");
+                                    $res=mysqli_query($link,"select * from issue_books where student_username='$_SESSION[username]'");
                                     while ($row=mysqli_fetch_array($res))
                                         {
                                             echo "<tr>";
