@@ -51,14 +51,14 @@
                             <li><a href="display_student_info.php"><i class="fa fa-home"></i> All Student Info <span class="fa fa-chevron-down"></span></a>
 
                             </li>
-                            <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
+                            <li><a href="add_books.php"><i class="fa fa-edit"></i> Add Books <span class="fa fa-chevron-down"></span></a>
 
                             </li>
-                            <li><a><i class="fa fa-desktop"></i> UI Elements <span
+                            <li><a href="display_books.php"><i class="fa fa-desktop"></i> Display Books <span
                                     class="fa fa-chevron-down"></span></a>
 
                             </li>
-                            <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
+                            <li><a href="issue_books.php"><i class="fa fa-table"></i> Issue Books <span class="fa fa-chevron-down"></span></a>
 
                             </li>
                             <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span
