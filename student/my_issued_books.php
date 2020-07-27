@@ -49,15 +49,9 @@ include "connection.php";
                                     while ($row=mysqli_fetch_array($res))
                                         {
                                             echo "<tr>";
-                                            echo "<td>";
-                                            echo $row["student_enrollment"];
-                                            echo "</td>";
-                                            echo "<td>";
-                                            echo $row["books_name"];
-                                            echo "</td>";
-                                            echo "<td>";
-                                            echo $row["books_issue_date"];
-                                            echo "</td>";
+                                            echo "<td>"; echo $row["student_enrollment"]; echo "</td>";
+                                            echo "<td>"; echo $row["books_name"]; echo "</td>";
+                                            echo "<td>"; echo $row["books_issue_date"]; echo "</td>";
                                             echo "</tr>";
                                         }
                                     ?>
