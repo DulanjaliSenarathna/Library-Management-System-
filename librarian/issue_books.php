@@ -124,7 +124,7 @@ include "connection.php";
                               if(isset($_POST["submit2"]))
                               {
                                 mysqli_query($link,"insert into issue_books values('','$_SESSION[enrollment]','$_POST[studentname]','$_POST[studentsem]','$_POST[studentcontact]','$_POST[studentemail]','$_POST[booksname]','$_POST[booksissuedate]','',' $_SESSION[susername]')");
-
+                                mysqli_query($link,"update add_books set available_qty=available_qty-1 where books_name='$_POST[booksname]'");
                                 ?>
                                 <script type=text/javascript>
                                 alert("Books issues successfully");
