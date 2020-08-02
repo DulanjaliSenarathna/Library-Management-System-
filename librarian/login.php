@@ -85,6 +85,7 @@ if(isset($_POST["submit1"]))
     else
     {
         $_SESSION["librarian"] = $_POST["username"];
+        
         ?>
 <script type="text/javascript">
 window.location="display_student_info.php";
