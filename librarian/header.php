@@ -61,7 +61,15 @@
                             <li><a href="issue_books.php"><i class="fa fa-table"></i> Issue Books <span class="fa fa-chevron-down"></span></a>
 
                             </li>
-                            <li><a><i class="fa fa-bar-chart-o"></i> Data Presentation <span
+                            <li><a href="return_book.php"><i class="fa fa-bar-chart-o"></i> Return Books <span
+                                    class="fa fa-chevron-down"></span></a>
+
+                            </li>
+                            <li><a href="books_details_with_student.php"><i class="fa fa-bar-chart-o"></i> Books With All Info<span
+                                    class="fa fa-chevron-down"></span></a>
+
+                            </li>
+                            <li><a href="send_notification_student.php"><i class="fa fa-mail-forward"></i> Send Message to Student<span
                                     class="fa fa-chevron-down"></span></a>
 
                             </li>
