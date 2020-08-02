@@ -44,19 +44,13 @@ include "connection.php";
             </div>
             <div>
 
-                <input class="btn btn-default submit" type="submit" name="submit1" value="Login">
-                <a class="reset_pass" href="#">Lost your password?</a>
+                <input style="margin-left:150px" class="btn btn-default submit" type="submit" name="submit1" value="Login">
+                
             </div>
 
             <div class="clearfix"></div>
 
-            <div class="separator">
-                <p class="change_link">New to site?
-                    <a href="registration.html"> Create Account </a>
-                </p>
-
-                <div class="clearfix"></div>
-                <br/>
+            
 
 
             </div>
